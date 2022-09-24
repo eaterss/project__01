@@ -1,0 +1,789 @@
+.main{
+	width: 1529.6px;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*侧边导航栏*/
+.tab {
+	display: none;
+	position: fixed;
+	left: 8%;
+	top: 35%;
+	text-align: center;
+	height: 200px;
+	width: 70px;
+}
+.tab li {
+	height: 50px;
+	line-height: 50px;
+	width: 70px;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.change {
+	background-color: red;
+	color: white;
+}
+/*头部*/
+header {
+	height: 30px;
+	background-color: #f1f1f1;
+}
+.headbanxin {
+	margin: 0 15%;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+.pzuo {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+.pyou {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+}
+.shuxian {
+	float: right;
+	width: 1px;
+	height: 15px;
+	margin: 7.5px 10px;
+	background-color: black;
+}
+/*搜索区域*/
+.searchbanxin {
+	height: 90px;
+	margin: 25px 15%  0 15%;
+}
+.searchbanxin img {
+	float: left;
+}
+.searchbanxin .sousuo {
+		float: left;
+		border: 1px solid red;
+		height: 30px;
+		width: 450px;
+		vertical-align: top;
+		margin-left: 180px;
+		font-size: 18px;
+		font-weight: 550;
+}
+.searchbanxin .anniu {
+	float: left;
+	margin-left: 0px;
+	border: 1px solid red;
+	border-left: 0px;
+	height: 32px;
+	width:70px ;
+	background-color: red;
+	color: white;
+	font-size: 24px;
+	vertical-align: top;
+	}
+.searchbanxin div {
+	float: right;
+	width: 140px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid black;
+}
+.searchbanxin li {
+	display: inline-block;/*转换为行内块级元素*/
+	          font-size: 10px;/*字体大小*/
+			  margin: 10px 30px 0 0;
+}
+li a{
+	margin-left: 180px;
+}
+/*分类*/
+.fenlei {
+	height: 45px;
+	margin: 0 15%;
+	}
+.fenlei h3 {
+	float: left;
+	width: 210px;
+	height: 45px;
+	background-color: #b1191a;
+	color: white;
+	line-height: 45px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.fenlei li {
+	float: left;
+	font-size: 14px;/*字体大小*/
+	margin-left: 50px;
+	height: 45px;
+	line-height: 45px;
+}
+.fenlei li:first-child{
+	margin-left: 30px;
+	}
+.fenlei li:last-of-type{
+	margin-right: 150px;
+}
+.fengexian {
+	height: 2px;
+	background-color: #b1191a;
+}
+/*侧边分类*/
+.cebianfenlei {
+	height: 510px;
+	margin: 0 15%;
+}
+.cebianfenlei .celeft{
+	float: left;
+	width: 210px;
+	height: 510px;
+	background-color: #c81623;
+}
+.cebianfenlei img {
+	float: left;
+	width: 610px;
+	height: 500px;
+	margin: 10px 0 0 5px;
+}
+.cebianfenlei .celeft li {
+	margin: 0 0 15px 10px;
+	color: #ffffff;
+}
+.cebianfenlei  ul .jydq {
+	margin-top: 15px;
+}
+.cebianfenlei li p {
+	float: right;
+	margin-right: 20px;
+}
+.cebianfenlei .newspaper {
+	float: right;
+	height: 500px;
+	width: 238px;
+	margin-top: 10px;
+	
+}
+.kuaibaoup {
+	height: 35px;
+	width: 236px;
+	border: 1px solid black;
+}
+.kuaibaoup h3{
+	float: left;
+	margin-left: 10px;
+	height: 35px;
+	line-height: 35px;
+	font-weight: 1000;
+}
+.kuaibaoup p {
+	margin-right: 10px;
+	height: 35px;
+	line-height: 35px;
+	float: right;
+}
+.kuaibaomiddle {
+	overflow: hidden;/*解决外边距坍塌*/
+	height: 155px;
+	width: 236px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.kuaibaomiddle li {
+	margin-bottom: 10px;
+	margin: 0 10px 10px 10px;
+	white-space: nowrap;/*内容强制一行显示*/
+	overflow: hidden;/*隐藏溢出的内容*/
+	text-overflow: ellipsis;/*将溢出的内容的前一个内容变为...*/
+}
+.kuaibaomiddle li:first-child {
+	margin-top: 15px;
+}
+.kuaibaodown {
+	padding-left: 1px;
+	width: 237px;
+	height: 210px;
+	background-image: url(../images/精灵图.png);
+}
+.kuaibaodown li {
+	margin-left: -1px;
+	float: left;
+	height: 69px;
+	width: 58.25px;
+	border: 1px solid black;
+	border-top: 0px;
+}
+.cebianfenlei .imgdown {
+	float: left;
+	width: 238px;
+	height: 87px;
+	margin: 10px 0 0 0;
+}
+/*今日推荐*/
+.jinrituijian {
+	height: 160px;
+	margin: 10px 15% 0 15%;
+}
+.jrtjzuo {
+	float: left;
+	width: 200px;
+	height: 160px;
+}
+.jrtjzuo img {
+	width: 100%;
+	height: 100%;
+}
+ .jrtjyou ul li img {
+	width: 100%;
+	height: 100%;
+}
+.jrtjyou {
+	float: left;
+	height: 160px;
+	width: 870.72px;
+	background-color: #ebebeb;
+}
+.jrtjyou li{
+	float: left;
+	height: 160px;
+	width: 216.9275px;
+	border-right: 1px solid gray;
+}
+.jrtjyou li:last-child {
+	border: 0px;
+}
+/*猜你喜欢*/
+.cai {
+	margin: 20px 15% 20px 15%;
+	font-size: 20px;
+}
+.bao {
+	height: 230px;
+	margin: 0 15%;
+}
+.bao ul li {
+	float: left;
+	width: 214.144px;
+	height: 230px;
+	transition: all 0.5s;
+}
+/* .bao ul li:hover {
+	transform: rotate(360deg);旋转360度
+} */
+.bao ul li img {
+	width: 214.144px;
+	height: 150px;
+}
+.bao ul li p {
+	padding: 0 30px;
+}
+.bao ul li a {
+	display: block;
+	font-size: 20px;
+	margin: 5px 0 0 0;
+	padding: 0 35px;
+}
+/*家用电器*/
+.jia {
+	margin: 30px 15% 0px 15%;
+	height: 30px;
+}
+.jiayongdianqi {
+	float: left;
+	font-size: 20px;
+	color: #c81623;
+	font-weight: 1000;
+	height: 30px;
+	line-height: 30px;
+}
+.jiafenlei {
+	height: 15px;
+	margin-top: 10px;
+	float: right;
+	overflow: hidden;
+}
+.jiafenlei li {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid ;
+}
+.jiafenlei  li:first-child {
+	padding-right: 0;
+	border: 0;
+}
+.fengexian2 {
+	margin: 0 15%;
+	height: 3px;
+	background-color: #b1191a;
+}
+.jiamain {
+	height: 360px;
+	margin: 0 15%;
+}
+.jiamain>div {
+	float: left;
+	height: 360px;
+	border-right: 1px solid;
+}
+/*家用电器板块一*/
+.jiamain .jia1 {
+	width: 200px;
+	border-right: 0;
+}
+.jia1 ul li {
+	float: left;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 20px;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+.jia1 img {
+	margin-top: 20px;
+} 
+/*家用电器板块二*/
+.jiamain .jia2{
+	width: 251.032px;
+	border-right: 0;
+}
+.jia2 img {
+	width: 100%;
+	height: 100%;
+}
+/*家用电器板块三*/
+/*三上*/
+.jiamain .jia3{
+	width: 210.896px;
+}
+.jia3up {
+	height: 179px;
+	overflow: hidden;/*解决外边距塌陷*/
+	border-bottom: 1px solid;
+	
+}
+.jia3up h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.jia3up a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.jia3up img {
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	
+}
+
+/*三下*/
+.jia3down {
+	height: 180px;
+	overflow: hidden;
+}
+.jia3down h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.jia3down a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.jia3down>img {
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 60%;
+	height: 100px;
+	
+}
+/*家用电器板块四*/
+.jiamain .jia4{
+	text-align: center;
+	width: 210.896px;
+}
+.jia4 h3 {
+	margin: 50px 0 15px 0;
+	font-size: 22px;
+	font-weight: 750;
+}
+.jia4 h4 {
+	font-weight: 400;
+	font-size: 18px;
+}
+.jia4>img {
+	margin-top: 75px;
+	width: 90%;
+	height: 175px;
+}
+/*家用电器板块五*/
+.jiamain .jia5{
+	width: 195px;
+	border: 0;
+}
+/*五上*/
+.jia5up {
+	height: 179px;
+	overflow: hidden;/*解决外边距塌陷*/
+	border-bottom: 1px solid;
+}
+.jia5up h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.jia5up a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.jia5up>img {
+	width: 75%;
+	height: 75px;
+	margin-top: 40px;
+	margin-left: 50px;
+	
+}
+/*五下*/
+.jia5down {
+	height: 180px;
+	overflow: hidden;
+}
+.jia5down h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.jia5down a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.jia5down>img {
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 60%;
+	height: 100px;
+}
+
+
+
+
+/*手机通讯*/
+.jia {
+	margin: 30px 15% 0px 15%;
+	height: 30px;
+}
+.shoujitongxun {
+	float: left;
+	font-size: 20px;
+	color: #c81623;
+	font-weight: 1000;
+	height: 30px;
+	line-height: 30px;
+}
+.phonefenlei {
+	height: 15px;
+	margin-top: 10px;
+	float: right;
+	overflow: hidden;
+}
+.phonefenlei li {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-right: 1px solid ;
+}
+.phonefenlei  li:first-child {
+	padding-right: 0;
+	border: 0;
+}
+.fengexian3 {
+	margin: 0 15%;
+	height: 3px;
+	background-color: #b1191a;
+}
+.phonemain {
+	height: 360px;
+	margin: 0 15%;
+}
+.phonemain>div {
+	float: left;
+	height: 360px;
+	border-right: 1px solid;
+}
+/*手机通讯一*/
+.phonemain .phone1 {
+	width: 200px;
+	border-right: 0;
+}
+.phone1 ul li {
+	float: left;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	margin: 10px 20px;
+	border-bottom: 1px solid;
+	text-align: center;
+}
+.phone1 img {
+	margin-top: 20px;
+} 
+/*手机通讯二*/
+.phonemain .phone2{
+	width: 251.032px;
+	border-right: 0;
+}
+.phone2 img {
+	width: 100%;
+	height: 100%;
+}
+/*手机通讯三*/
+/*三上*/
+.phonemain .phone3{
+	width: 210.896px;
+}
+.phone3up {
+	height: 179px;
+	overflow: hidden;/*解决外边距塌陷*/
+	border-bottom: 1px solid;
+}
+.phone3up h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.phone3up a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.phone3up>img {
+	width: 100%;
+	height: 100px;
+	margin-top: 10px;
+}
+/*三下*/
+.phone3down {
+	height: 180px;
+	overflow: hidden;
+}
+.phone3down h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.phone3down a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.phone3down>img {
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 60%;
+	height: 100px;
+	
+}
+/*手机通讯四*/
+.phonemain .phone4{
+	text-align: center;
+	width: 210.896px;
+}
+.phone4 h3 {
+	margin: 50px 0 15px 0;
+	font-size: 22px;
+	font-weight: 750;
+}
+.phone4 h4 {
+	font-weight: 400;
+	font-size: 18px;
+}
+.phone4>img {
+	margin-top: 75px;
+	width: 90%;
+	height: 175px;
+}
+/*手机通讯五*/
+.phonemain .phone5{
+	width: 195px;
+	border: 0;
+}
+/*五上*/
+.phone5up {
+	height: 179px;
+	overflow: hidden;/*解决外边距塌陷*/
+	border-bottom: 1px solid;
+}
+.phone5up h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.phone5up a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.phone5up>img {
+	width: 75%;
+	height: 75px;
+	margin-top: 40px;
+	margin-left: 50px;
+	
+}
+/*五下*/
+.phone5down {
+	height: 180px;
+	overflow: hidden;
+}
+.phone5down h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	font-size: 18px;
+	font-weight: 750;
+}
+.phone5down a {
+	font-weight: 750;
+	margin-left: 15px;
+}
+.phone5down>img {
+	margin-left: 70px;
+	margin-top: 10px;
+	width: 60%;
+	height: 100px;
+}
+/*优点*/
+.advantage {
+	margin: 40px 15%;
+	height: 55px;
+}
+.advantage ul li {
+	float: left;
+	width: 161px;
+	height: 55px;
+	margin: 0 20px;
+	
+}
+.advantage ul .advantage1 {
+	width: 173px;
+	margin-left: 50px;
+}
+.advantage ul .advantage2 {
+	width: 173px;
+}
+.advantage ul li .advantagededetailed {
+	float: left;
+	height: 55px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+.advantage ul li .advantagededetailed h3 {
+	font-size: 18px;
+	margin-top: 9.5px;
+}
+.advantage ul li .tailedpicture {
+	float: left;
+	height: 55px;
+	width: 55px;
+	overflow: hidden;
+	background-image: url(../images/优点.png) ;
+}
+.advantage2 span {
+	background-position: -245px 0px;
+}
+.advantage3 span {
+	background-position: -485px 0px;
+}
+.advantage4 span {
+	background-position: -725px 0px;
+}
+.advantage5 span {
+	background-position: -963px 0px;
+}
+/*footer*/
+.fengexian4 {
+	margin: 0 15% 20px 15%;
+	height: 1px;
+	background-color: gray;
+}
+.service {
+	margin: 0 15%;
+	height: 200px;
+	overflow: hidden;
+}
+.service div {
+	float: left;
+	height: 200px;
+	width: 150px;
+	margin: 10px;
+}
+.service div:first-child {
+	margin-left: 50px;
+}
+.service div h3 {
+	
+	font-size: 18px;
+	font-weight: 550;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.service div p {
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 13px;
+}
+.service div img {
+	margin-bottom: 5px;
+}
+.fengexian5 {
+	margin: 0 15% 20px 15%;
+	height: 1px;
+	background-color: gray;
+}
+.about {
+	overflow: hidden;
+	text-align: center;
+	margin: 0 15% 20px 15%;
+	height: 15px;
+	
+}
+.about ul li {
+	display: inline-block;
+	padding: 0 10px;
+	border-right: 1px solid;
+}
+.about ul li a {
+	color: black;
+	margin-left: 0;
+}
+.about li:last-child {
+	padding-right: 0;
+	border: 0;
+}
+.address {
+	text-align: center;
+}
+.icp {
+	text-align: center;
+}
